@@ -2214,6 +2214,7 @@ class Sam3MultiplexTrackingWithInteractivity(Sam3MultiplexTracking):
         self,
         resource_path,
         offload_video_to_cpu=False,
+        offload_state_to_cpu=False,
         async_loading_frames=False,
         use_torchcodec=False,
         use_cv2=False,
